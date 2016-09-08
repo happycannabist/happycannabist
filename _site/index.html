@@ -18,71 +18,141 @@
     <!-- /404 Redirect -->
 
     <link rel="alternate" type="application/rss+xml" title="" href="http://happycannabist.github.io/feed.xml">
-
+    <script src="https://use.fortawesome.com/7dd778b6.js"></script>
     <link rel="stylesheet" href="http://happycannabist.github.io/css/foundation.min.css" />
-    <link rel="stylesheet" href="http://happycannabist.github.io/css/hc.css" />
+    <link rel="stylesheet" href="css/hc.css" />
 
   </head>
   <body>
 
 <div class="off-canvas-wrapper">
-    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-      <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
-
-        <!-- Close button -->
-        <button class="close-button" aria-label="Close menu" type="button" data-close>
-          <span aria-hidden="true">&times;</span>
-        </button>
-
-        <!-- Menu -->
-        <ul class="vertical menu">
-          <li><a href="#">Foundation</a></li>
-          <li><a href="#">Dot</a></li>
-          <li><a href="#">ZURB</a></li>
-          <li><a href="#">Com</a></li>
-          <li><a href="#">Slash</a></li>
-          <li><a href="#">Sites</a></li>
-        </ul>
-
-      </div>
-
-      <div class="off-canvas-content" data-off-canvas-content>
-        <div class="title-bar">
-  <div class="title-bar-left">
-    <button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
-    <span class="title-bar-title">HC</span>
-  </div>
-  <div class="title-bar-right">
-
-  </div>
-</div>
+	<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+		<div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+			<!-- Close button -->
+			 <button aria-label="Close menu" class="close-button" data-close="" type="button"><span aria-hidden="true">&times;</span></button> <!-- Menu -->
+			<ul class="vertical menu">
+				<li>
+					<a href="#">Foundation</a>
+				</li>
+				<li>
+					<a href="#">Dot</a>
+				</li>
+				<li>
+					<a href="#">ZURB</a>
+				</li>
+				<li>
+					<a href="#">Com</a>
+				</li>
+				<li>
+					<a href="#">Slash</a>
+				</li>
+				<li>
+					<a href="#">Sites</a>
+				</li>
+			</ul>
+		</div>
+    <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
+			<!-- Close button -->
+			 <button aria-label="Close menu" class="close-button" data-close="" type="button"><span aria-hidden="true">&times;</span></button> <!-- Menu -->
+			<ul class="vertical menu">
+				<li>
+					<a href="#">Foundation</a>
+				</li>
+				<li>
+					<a href="#">Dot</a>
+				</li>
+				<li>
+					<a href="#">ZURB</a>
+				</li>
+				<li>
+					<a href="#">Com</a>
+				</li>
+				<li>
+					<a href="#">Slash</a>
+				</li>
+				<li>
+					<a href="#">Sites</a>
+				</li>
+			</ul>
+		</div>
+		<div class="off-canvas-content" data-off-canvas-content="">
+      <div data-sticky-container>
+			<div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+				<div class="title-bar-left">
+					<button data-open="offCanvasLeft" type="button"><i class="fa fa-pine-tree-box"></i></button> <span class="title-bar-title">HC</span>
+				</div>
+				<div class="title-bar-right">
+					<button data-open="offCanvasRight" type="button">
+<i class="fa fa-search-btm"></i></button>
+				</div>
+			</div>
+    </div>
 
   <div class="home">
-  <div class="row expanded align-center">
+  <div id="home-header" class="row expanded align-center">
     <div class="large-12 columns">
-      <img src="http://placehold.it/1920x700?text=header+image">
+      <img src="http://www.happycannabist.us/wp-content/uploads/2016/06/thc-bg-2016-1.jpg">
     </div>
   </div>
-  <div class="row expanded align-center">
-<div class="large-10 medium-10 small-12 columns">
-  <ul class="post-list">
+<div class="row expanded align-center">
+  <div class="large-10 medium-10 small-12 columns">
+    <div class="row small-up-1 medium-up-2 large-up-3">
+      
+        <div class="column">
+          <span class="post-meta">Sep 8, 2016</span>
+
+          <h2 class="post-title">
+            <a class="post-link" href="/jekyll/update/2016/09/08/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+          </h2>
+          <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+
+      </div>
     
-      <li>
-        <span class="post-meta">Sep 8, 2016</span>
+        <div class="column">
+          <span class="post-meta">Sep 7, 2016</span>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2016/09/08/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
+          <h2 class="post-title">
+            <a class="post-link" href="/jekyll/update/2016/09/07/example-post-again.html">Another Example Post</a>
+          </h2>
+          <p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+
+      </div>
     
-  </ul>
+        <div class="column">
+          <span class="post-meta">Sep 6, 2016</span>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+          <h2 class="post-title">
+            <a class="post-link" href="/jekyll/update/2016/09/06/third-example-post.html">Third Example Post</a>
+          </h2>
+          <p>Here they come! They’re coming in too fast! Oooh! We’ve lost lateral controls. Don’t worry, she’ll hold together. You hear me, baby? Hold together! Got him! I got him! Great kid! Don’t get cocky. There are still two more of them out there! That’s it! We did it! We did it! Help! I think I’m melting! This is all your fault.</p>
+
+
+      </div>
+    
+  </div>
 </div>
 </div>
+<div class="row expanded purple align-center">
+  <div class="large-4 small-12 columns text-center">
+    <h3>A Bold Title</h3>
+      <a class="button radius large">Call to Action</a>
+  </div>
+</div>
 </div>
 
 
+<footer>
+<div class="row expanded">
+  <div class="large-6 columns">
+    <p>&copy; <span id="copy"></span> Happy Cannabist</p>
+  </div>
+  <div class="large-6 columns text-right">
+    <p class="rss-subscribe text-right">subscribe <a href="/feed.xml">via RSS</a></p>
+  </div>
+</div>
+</footer>
 </div>
 </div>
 </div>
@@ -92,6 +162,11 @@
  <script>
        $(document).foundation();
      </script>
+     <script>
+     var d = new Date();
+     var n = d.getFullYear();
+document.getElementById("copy").innerHTML = n;
+</script>
   </body>
 </html>
 

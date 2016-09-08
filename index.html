@@ -3,26 +3,31 @@ layout: home
 ---
 
 <div class="home">
-  <div class="row expanded align-center">
+  <div id="home-header" class="row expanded align-center">
     <div class="large-12 columns">
-      <img src="http://placehold.it/1920x700?text=header+image">
+      <img src="http://www.happycannabist.us/wp-content/uploads/2016/06/thc-bg-2016-1.jpg">
     </div>
   </div>
-  <div class="row expanded align-center">
-<div class="large-10 medium-10 small-12 columns">
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div class="row expanded align-center">
+  <div class="large-10 medium-10 small-12 columns">
+    <div class="row small-up-1 medium-up-2 large-up-3">
+      {% for post in site.posts %}
+        <div class="column">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
+          <h2 class="post-title">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+          </h2>
+          {{ post.excerpt }}
+      </div>
     {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
 </div>
+</div>
+<div class="row expanded purple align-center">
+  <div class="large-4 small-12 columns text-center">
+    <h3>A Bold Title</h3>
+      <a class="button radius large">Call to Action</a>
+  </div>
 </div>
 </div>

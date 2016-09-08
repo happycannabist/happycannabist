@@ -1,3 +1,13 @@
+<footer>
+<div class="row expanded">
+  <div class="large-6 columns">
+    <p>&copy; <span id="copy"></span> Happy Cannabist</p>
+  </div>
+  <div class="large-6 columns text-right">
+    <p class="rss-subscribe text-right">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
+</div>
+</footer>
 </div>
 </div>
 </div>
@@ -7,5 +17,10 @@
  <script>
        $(document).foundation();
      </script>
+     <script>
+     var d = new Date();
+     var n = d.getFullYear();
+document.getElementById("copy").innerHTML = n;
+</script>
   </body>
 </html>

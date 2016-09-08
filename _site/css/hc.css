@@ -1,4 +1,80 @@
+/*Typography*/
+body {
+  font-family: Lato;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: Arvo;
+  font-weight: 700;
+  font-style: normal;
+}
+h2.post-title {
+  line-height: 1.1;
+}
+/*Nav*/
+.off-canvas-wrapper-inner {
+  min-height: 100vh;
+}
+div.off-canvas-content {
+  background:#000;
+}
+div.home {
+  background:#fff;
+}
+.off-canvas {
+  bottom: 0;
+}
+.title-bar button .fa {
+  font-size:1.5rem;
+  line-height:1.5;
+  vertical-align: middle;
+  display: inline-block;
+}
+.menu-icon:after {
+    content: none;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fefefe;
+    top: 0;
+    left: 0;
+    box-shadow: none;
+}
+.title-bar {
+  background:rgba(11,37,14,0.74);
+}
+.title-bar-title {
+    font-size: 1.5rem;
+}
+/*Layout*/
 .row {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+.row.purple {
+  background:#201b2d;
+  color:#fff;
+}
+/*Buttons*/
+.row.purple .button {
+    background-color: #444b6e;
+    color: #fefefe;
+}
+/*Homepage*/
+#home-header.row {
+  padding: 0px;
+}
+#home-header.row .columns {
+  padding-left: 0;
+  padding-right: 0;
+}
+/*Footer*/
+footer {
+  color:#fff;
+  background:#17321a;
 }
