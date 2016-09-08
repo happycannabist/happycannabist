@@ -36,6 +36,36 @@
   </head>
   <body>
 
+<body>
+  <div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+      <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+
+        <!-- Close button -->
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+        <!-- Menu -->
+        <ul class="vertical menu">
+          <li><a href="#">Foundation</a></li>
+          <li><a href="#">Dot</a></li>
+          <li><a href="#">ZURB</a></li>
+          <li><a href="#">Com</a></li>
+          <li><a href="#">Slash</a></li>
+          <li><a href="#">Sites</a></li>
+        </ul>
+
+      </div>
+
+      <div class="off-canvas-content" data-off-canvas-content>
+	      <div class="title-bar">
+		  	<div class="title-bar-left">
+		  		<button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
+		  		<span class="title-bar-title">Foundation</span>
+		  	</div>
+  
+		  </div>
 
   <section class="row support">
     <div class="small-12 medium-8 medium-offset-2 large-offset-2 end columns">
@@ -186,9 +216,11 @@
 </section>
 
 
+		</div> <!-- end off-canvas-content -->
+    </div> <!-- end off-canvas-inner -->
+  </div> <!-- end off-canvas-wrapper -->
  <script src="../../assets/javascripts/vendor/jquery/jquery-2.1.4.min.js"></script>
   <script src="../../assets/javascripts/foundation.min.js"></script>
   <script src="../../assets/javascripts/scripts.js"></script>
-
   </body>
 </html>
