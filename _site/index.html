@@ -19,23 +19,42 @@
 
     <link rel="alternate" type="application/rss+xml" title="" href="http://happycannabist.github.io/feed.xml">
 
-    <link rel="stylesheet" href="assets/stylesheets/style.css" />
-
-    <!-- Foundation Favicons -->
-    <link href="http://foundation-forum0.zurbstatic.com/assets/favicon-47a37f0a0e941bf5966d5d4e8a66de14.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700"/>
-
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://foundation-forum2.zurbstatic.com/assets/favicons/apple-touch-icon-144x144-precomposed-988ff9eec894c302f748ee817b9a2912.png">
-
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://foundation-forum2.zurbstatic.com/assets/favicons/apple-touch-icon-114x114-precomposed-8c2ef526523efe47e11e7af1068cf38d.png">
-
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://foundation-forum2.zurbstatic.com/assets/favicons/apple-touch-icon-72x72-precomposed-1cc97a9c68e5d59ae4f650c989e5354b.png">
-
-    <link rel="apple-touch-icon-precomposed" href="http://foundation-forum2.zurbstatic.com/assets/favicons/apple-touch-icon-precomposed-197a05ba144fa3c26d536f2295cc056e.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation-flex.min.css" />
 
   </head>
   <body>
 
+<div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+      <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+
+        <!-- Close button -->
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+        <!-- Menu -->
+        <ul class="vertical menu">
+          <li><a href="#">Foundation</a></li>
+          <li><a href="#">Dot</a></li>
+          <li><a href="#">ZURB</a></li>
+          <li><a href="#">Com</a></li>
+          <li><a href="#">Slash</a></li>
+          <li><a href="#">Sites</a></li>
+        </ul>
+
+      </div>
+
+      <div class="off-canvas-content" data-off-canvas-content>
+        <div class="title-bar">
+  <div class="title-bar-left">
+    <button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
+    <span class="title-bar-title">HC</span>
+  </div>
+  <div class="title-bar-right">
+
+  </div>
+</div>
 
   <div class="home">
 
@@ -58,10 +77,15 @@
 </div>
 
 
- <script src="assets/javascripts/vendor/jquery/jquery-2.1.4.min.js"></script>
-  <script src="assets/javascripts/foundation.min.js"></script>
-  <script src="assets/javascripts/scripts.js"></script>
-
+</div>
+</div>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/what-input/2.1.1/what-input.min.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.js"></script>
+ <script>
+       $(document).foundation();
+     </script>
   </body>
 </html>
 
