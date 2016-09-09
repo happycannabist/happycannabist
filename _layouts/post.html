@@ -1,7 +1,11 @@
 {% include header.html %}
 {% include nav.html %}
-<div class="row expanded align-center post-content">
+<div class="row expanded align-center post-content full-page">
   <div class="large-8 medium-10 small-12 columns">
+  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <h2 class="post-title">
+    {{ post.title | escape }}
+  </h2>
   {{ content }}
 </div>
 </div>
