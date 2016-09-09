@@ -72,13 +72,6 @@ div.home {
 #home-header {
   height:100%;
 }
-#home-header.row {
-  padding: 0px;
-}
-#home-header.row .columns {
-  padding-left: 0;
-  padding-right: 0;
-}
 .home-parallax {
     /* The image used */
     background-image: url("http://www.happycannabist.us/wp-content/uploads/2016/06/thc-bg-2016-1.jpg");
