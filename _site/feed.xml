@@ -4,10 +4,10 @@
     <title>Happy Cannabist</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://happycannabist.github.io/</link>
-    <atom:link href="http://happycannabist.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Sep 2016 16:34:18 -0500</pubDate>
-    <lastBuildDate>Thu, 08 Sep 2016 16:34:18 -0500</lastBuildDate>
+    <link>https://happycannabist.github.io/</link>
+    <atom:link href="https://happycannabist.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 09 Sep 2016 10:50:28 -0500</pubDate>
+    <lastBuildDate>Fri, 09 Sep 2016 10:50:28 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Thu, 08 Sep 2016 12:40:14 -0500</pubDate>
-        <link>http://happycannabist.github.io/jekyll/update/2016/09/08/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://happycannabist.github.io/jekyll/update/2016/09/08/welcome-to-jekyll.html</guid>
+        <link>https://happycannabist.github.io/jekyll/update/2016/09/08/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://happycannabist.github.io/jekyll/update/2016/09/08/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -44,8 +44,8 @@
 
 </description>
         <pubDate>Wed, 07 Sep 2016 12:40:14 -0500</pubDate>
-        <link>http://happycannabist.github.io/jekyll/update/2016/09/07/example-post-again.html</link>
-        <guid isPermaLink="true">http://happycannabist.github.io/jekyll/update/2016/09/07/example-post-again.html</guid>
+        <link>https://happycannabist.github.io/jekyll/update/2016/09/07/example-post-again.html</link>
+        <guid isPermaLink="true">https://happycannabist.github.io/jekyll/update/2016/09/07/example-post-again.html</guid>
         
         
         <category>jekyll</category>
@@ -61,8 +61,8 @@
 &lt;p&gt;Owen, he can’t stay here forever. Most of his friends have gone. It means so much to him. I’ll make it up to him next year. I promise. Luke’s just not a farmer, Owen. He has too much of his father in him. That’s what I’m afraid of.&lt;/p&gt;
 </description>
         <pubDate>Tue, 06 Sep 2016 12:40:14 -0500</pubDate>
-        <link>http://happycannabist.github.io/jekyll/update/2016/09/06/third-example-post.html</link>
-        <guid isPermaLink="true">http://happycannabist.github.io/jekyll/update/2016/09/06/third-example-post.html</guid>
+        <link>https://happycannabist.github.io/jekyll/update/2016/09/06/third-example-post.html</link>
+        <guid isPermaLink="true">https://happycannabist.github.io/jekyll/update/2016/09/06/third-example-post.html</guid>
         
         
         <category>jekyll</category>

@@ -1,3 +1,6 @@
+body, html, .home {
+    height: 100%;
+}
 /*Typography*/
 body {
   font-family: Lato;
@@ -66,12 +69,28 @@ div.home {
     color: #fefefe;
 }
 /*Homepage*/
+#home-header {
+  height:100%;
+}
 #home-header.row {
   padding: 0px;
 }
 #home-header.row .columns {
   padding-left: 0;
   padding-right: 0;
+}
+.home-parallax {
+    /* The image used */
+    background-image: url("http://www.happycannabist.us/wp-content/uploads/2016/06/thc-bg-2016-1.jpg");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*Footer*/
 footer {
