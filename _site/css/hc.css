@@ -87,6 +87,9 @@ div.home {
     background-repeat: no-repeat;
     background-size: cover;
 }
+div.full-page {
+    width:100%;
+}
 /*Footer*/
 footer {
   color:#fff;
